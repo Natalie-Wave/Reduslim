@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reduslim</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preload" href="./fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body>
+    <section class="order">
+        <div class="container order-container">
+            <div class="order-info">
+                <h2 class="order-info__heading">Reduslim</h2>
+                <img class="order-info__img" src="./img/pills.png" alt="Таблетки">
+                <p class="order-info__descr">Eco</p>
+            </div>
+            <div class="order-form">
+                <h1 class="order-form__heading">Сделай шаг к выздоровлению</h1>
+                <label for="#name" class="order-form__name form-label">
+                    <div class="form-label-wrapper">Ваше <span class="form-label__green">имя</span></div>
+                    <input class="form-label__name form-input" type="text" id="name" placeholder="Алексей">
+                </label>
+                <div class="order-form-container">
+                    <label for="#tel" class="order-form__tel form-label">
+                        <div class="form-label-wrapper">Ваш <span class="form-label__green">телефон</span></div>
+                        <input class="form-label__tel form-input" type="text" id="tel" placeholder="+7 (123) 456 78-90">
+                    </label>
+                    <div class="select">
+                        <input class="select__input" type="hidden" name="">
+                        <div class="select__head">RU</div>
+                        <ul class="select__list" style="display: none;">
+                            <li class="select__item">USA</li>
+                            <li class="select__item">FR</li>
+                            <li class="select__item">UK</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="order-form__btn" type="submit">Заказать</button>
+            </div>
+            <div class="footer">
+                <p class="footer-descr footer-trusted">Trusted</p>
+                <p class="footer-descr footer-secure">Secure</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>
